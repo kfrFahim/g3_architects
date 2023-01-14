@@ -314,3 +314,43 @@ body{
      font-size: 20px;
      line-height: 23px;
 }
+.sponsor_wrap{
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     
+}
+.sponsor_info{
+     text-align: center;
+     margin-top: 180px;
+}
+.sponsor_info h1{
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 53px;
+     color: #131313;
+}
+.sponsor_info p{
+     font-size: 16px;
+     line-height: 26px;
+     color: #727272;
+     margin-top: 24px;
+}
+.sponsors_item_wrap{
+     display: flex;
+     justify-content: space-between;
+}
+
+.footer_wrap{
+     width: 90%;
+     height: 23px;
+     font-size: 20px;
+     margin: 0 auto;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     text-align: center;
+     color: #424242;
+     padding: 20px 20px 40px 20px;
+}
