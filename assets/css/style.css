@@ -1,0 +1,313 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+     width: 100%;
+     background: rgba(255, 144, 14, 0.1);
+     
+}
+
+/* Header Section Style */
+.menu_bar{
+     width: 90%;
+     margin: 0 auto;
+     
+     display: flex;
+     justify-content: space-between;
+}
+
+.nav_bar > ul{
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+}
+.nav_bar ul li{
+     list-style: none;
+}
+.nav_bar ul li a{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 500;
+     color: #424242;   
+     transition: .5s ease;
+}
+
+.nav_bar ul li a:hover{
+     background-color: black;
+     padding: 5px 10px;
+     color: aliceblue;
+     border-radius: 5px;
+}
+
+/* Header Description Style */
+
+.header_wrap{
+     padding: 50px 0;
+}
+.header_description{
+     width: 60%;
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 102px;
+}
+
+.description_title{
+     font-weight: 700;
+     font-size: 64px;
+     line-height: 75px;
+     color: #131313;
+     margin-bottom: 20px;
+}
+
+.description_info{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     color: #727272;
+     margin-bottom: 20px;
+}
+
+.btn_btn{
+     width: 180px;
+     height: 60px;
+     background-color: #FF900E;
+     border: 0;
+     border-radius: 8px;
+     font-weight: 600;
+     font-size: 20px;
+     color: #FFFFFF;
+     margin-bottom: 50px;
+     transition: .3s ease;
+}
+
+.btn_btn:hover{
+     background-color:#131313;
+     color:#FF900E;
+}
+.banner{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.banner img{
+     width: 90%;
+     height: 700px;
+     object-fit: cover;
+     object-position: center;
+     border-radius: 10px;
+}
+
+/* Photo Gallery Style */
+
+.photo_gallery-wrap{
+     width: 100%;
+     padding: 30px;
+     margin-top: 130px;
+}
+
+.gallery_wrapper{
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     gap: 50px;
+}
+
+.photo_gallery{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 24px;
+}
+
+.photo_gallery .photo img{
+     width: 302px;
+     height: 280px;
+}
+.gallery_title{
+     font-size: 45px;
+     font-weight: 700;
+     line-height: 53px;
+     color: #FF900E;
+     margin-bottom: 24px;
+}
+.gallery_title span{
+     font-weight: 500;
+     color: #727272;
+}
+.gallery_title strong{
+     color: #131313;
+}
+
+.gallery_description{
+     font-size: 16px;
+     line-height: 26px;
+     color: #727272;
+     margin-bottom: 32px;
+}
+
+/* Feature Section Style */
+
+.feature-wrapper{
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 130px;
+     /* border: 4px solid red; */
+}
+
+.feature_head_wrap{
+     display: flex;
+     justify-content: space-between;
+     gap: 54px;
+     
+     
+}
+
+.frature_description{
+     width: 100%;
+     margin-right: 90px;
+}
+
+.frature_description p{
+     
+     font-size: 16px;
+     line-height: 26px;
+     color: #727272;
+     text-align: justify;
+     
+}
+
+.line{
+     width: 5px;
+     height: 106px;
+     background-color: #FF900E;
+}
+
+.feature_title{
+     font-weight: 700;
+     font-size: 35px;
+     line-height: 53px;
+     color: #131313;
+     margin: 24px 0;
+}
+.feature_heading{
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
+
+
+.frature_photo {
+     position: relative;
+     width: 100%;
+     height: 870px;
+     background: url(../images/architect.png);
+     background-size: cover;
+     margin-bottom: 0px;
+     border-radius: 10px;
+}
+
+.frature_photo .btn_btn{
+     width: 330px;
+     height: 200px;
+     padding: 20px;
+     position: absolute;
+     left: -95px;
+     bottom: -140px;
+     text-align: center;
+}
+
+.feature_info_wrap{
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+     margin-top: 50px;
+     padding: 0 42px 30px 30px;
+     /* border: 2px solid green; */
+}
+
+.feature_info h1{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 23px;
+     color: #131313;
+     margin-bottom: 10px;
+
+}
+.frature_photo span{
+     font-weight: 700;
+     font-size: 65px;
+     line-height: 70px;
+     color: #FFFFFF;
+}
+.frature_photo button{
+     font-weight: 500;
+     font-size: 25px;
+     line-height: 40px;
+}
+
+/* Some Facts Style */
+
+.facts_wrapper{
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 168px;
+}
+.facts_wrapper h1{
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 53px;
+     color: #131313;
+     margin-bottom: 24px;
+}
+.facts_wrapper p{
+     font-size: 16px;
+     line-height: 26px;
+     color: #727272;
+}
+
+.facts_info_wrapper{
+     margin: 100px 0 50px 0;
+     /* border: 5px solid red; */
+}
+.facts_info_wrap{
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     gap: 90px;
+     align-items: center;
+     text-align: center;
+     
+}
+
+.facts_info_wrap .facts_info_item{
+     height: 200px;
+     width: 350px;
+     border: 1px solid #FF900E;
+     border-radius: 10px;
+     padding: 30px 0 0 0;  
+}
+.facts_info_item h1{
+     margin-bottom: 5px;
+     font-weight: 600;
+     font-size: 45px;
+     line-height: 53px;
+}
+.facts_info_item p{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 23px;
+}
